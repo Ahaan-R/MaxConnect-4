@@ -1,0 +1,3 @@
+Explaination of evalfunc
+
+evalFunc function calculates numbers of fours, threes and twos in the game board for both the players. The calculation is done by checking that consecutive fours are in vertical, horizontal or diagonal manner. Now, each of these occurance is then multiplied by the weights such that maximun possible outcome of twos occurance is less than threes and similarly the maximun possible outcome of threes is less than fours. The best possible move is determined by the difference of the player eval calc with the computer eval calc.
